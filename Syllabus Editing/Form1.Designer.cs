@@ -31,6 +31,9 @@ namespace Syllabus_Editing
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -43,9 +46,6 @@ namespace Syllabus_Editing
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -87,6 +87,28 @@ namespace Syllabus_Editing
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(212, 644);
             this.panel1.TabIndex = 0;
+            // 
+            // panel4
+            // 
+            this.panel4.Location = new System.Drawing.Point(212, 202);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(873, 442);
+            this.panel4.TabIndex = 18;
+            // 
+            // panel3
+            // 
+            this.panel3.Location = new System.Drawing.Point(212, 202);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(866, 436);
+            this.panel3.TabIndex = 18;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.Turquoise;
+            this.panel2.Location = new System.Drawing.Point(0, 124);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(10, 39);
+            this.panel2.TabIndex = 21;
             // 
             // button3
             // 
@@ -230,6 +252,7 @@ namespace Syllabus_Editing
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 16;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // pictureBox6
             // 
@@ -240,28 +263,6 @@ namespace Syllabus_Editing
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 17;
             this.pictureBox6.TabStop = false;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.Turquoise;
-            this.panel2.Location = new System.Drawing.Point(0, 124);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(10, 39);
-            this.panel2.TabIndex = 21;
-            // 
-            // panel3
-            // 
-            this.panel3.Location = new System.Drawing.Point(212, 202);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(866, 436);
-            this.panel3.TabIndex = 18;
-            // 
-            // panel4
-            // 
-            this.panel4.Location = new System.Drawing.Point(212, 202);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(873, 442);
-            this.panel4.TabIndex = 18;
             // 
             // panel5
             // 
@@ -281,9 +282,9 @@ namespace Syllabus_Editing
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(35, 178);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(128, 19);
+            this.label5.Size = new System.Drawing.Size(140, 19);
             this.label5.TabIndex = 15;
-            this.label5.Text = "FROM SCRATCH";
+            this.label5.Text = "   FROM SCRATCH";
             // 
             // label4
             // 
@@ -381,9 +382,9 @@ namespace Syllabus_Editing
             this.label9.ForeColor = System.Drawing.Color.White;
             this.label9.Location = new System.Drawing.Point(35, 159);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(153, 19);
+            this.label9.Size = new System.Drawing.Size(125, 19);
             this.label9.TabIndex = 14;
-            this.label9.Text = "VIEW OR DELETE AN";
+            this.label9.Text = "        IMPORT AN";
             // 
             // pictureBox3
             // 

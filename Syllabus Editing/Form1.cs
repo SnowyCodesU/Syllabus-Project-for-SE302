@@ -30,5 +30,10 @@ namespace Syllabus_Editing
             this.Hide();
             form1.ShowDialog();
         }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

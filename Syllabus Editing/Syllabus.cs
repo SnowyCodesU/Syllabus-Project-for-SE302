@@ -24,7 +24,9 @@ namespace Syllabus_Editing
             form1.ShowDialog();
         }
 
-       
-        
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
