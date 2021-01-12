@@ -1,0 +1,943 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="fastColoredTextBox1.ServiceColors" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdGYXN0Q29sb3JlZFRleHRCb3gsIFZlcnNpb249Mi4xNi4yNC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWZiOGFhMTJiOTk0ZWY2MWIMAwAAAFFTeXN0
+        ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2Vu
+        PWIwM2Y1ZjdmMTFkNTBhM2EFAQAAACJGYXN0Q29sb3JlZFRleHRCb3hOUy5TZXJ2aWNlQ29sb3JzBgAA
+        ACg8Q29sbGFwc2VNYXJrZXJGb3JlQ29sb3I+a19fQmFja2luZ0ZpZWxkKDxDb2xsYXBzZU1hcmtlckJh
+        Y2tDb2xvcj5rX19CYWNraW5nRmllbGQqPENvbGxhcHNlTWFya2VyQm9yZGVyQ29sb3I+a19fQmFja2lu
+        Z0ZpZWxkJjxFeHBhbmRNYXJrZXJGb3JlQ29sb3I+a19fQmFja2luZ0ZpZWxkJjxFeHBhbmRNYXJrZXJC
+        YWNrQ29sb3I+a19fQmFja2luZ0ZpZWxkKDxFeHBhbmRNYXJrZXJCb3JkZXJDb2xvcj5rX19CYWNraW5n
+        RmllbGQEBAQEBAQUU3lzdGVtLkRyYXdpbmcuQ29sb3IDAAAAFFN5c3RlbS5EcmF3aW5nLkNvbG9yAwAA
+        ABRTeXN0ZW0uRHJhd2luZy5Db2xvcgMAAAAUU3lzdGVtLkRyYXdpbmcuQ29sb3IDAAAAFFN5c3RlbS5E
+        cmF3aW5nLkNvbG9yAwAAABRTeXN0ZW0uRHJhd2luZy5Db2xvcgMAAAACAAAABfz///8UU3lzdGVtLkRy
+        YXdpbmcuQ29sb3IEAAAABG5hbWUFdmFsdWUKa25vd25Db2xvcgVzdGF0ZQEAAAAJBwcDAAAACgAAAAAA
+        AAAAlgABAAH7/////P///woAAAAAAAAAAKQAAQAB+v////z///8KAAAAAAAAAACWAAEAAfn////8////
+        CgAAAAAAAAAAjQABAAH4/////P///woAAAAAAAAAAKQAAQAB9/////z///8KAAAAAAAAAACWAAEACw==
+</value>
+  </data>
+  <data name="fastColoredTextBox1.Text" xml:space="preserve">
+    <value>&lt;div class="card"&gt;
+    &lt;div class="card-body"&gt;
+        
+            &lt;div class="table-responsive"&gt;&lt;table align="center" cellpadding="2" cellspacing="2" class="table table-condensed table-bordered"&gt;
+                &lt;tbody&gt;&lt;tr&gt;
+                    &lt;td class="sy-label" style="padding:20px;"&gt;
+                        &lt;strong&gt;Dersin Adı&lt;/strong&gt;
+                    &lt;/td&gt;
+                    &lt;td style="padding:20px;"&gt;
+                        &lt;div class="editinput" id="course_name"&gt;
+                            Yazılım Mühendisliğinin İlkeleri                        &lt;/div&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/tbody&gt;&lt;/table&gt;
+            &lt;/div&gt;
+    
+    
+    &lt;div class="table-responsive"&gt;&lt;table align="center" cellpadding="2" cellspacing="2" class="table table-condensed table-bordered transpose"&gt;
+        &lt;tbody&gt;&lt;tr class="sy-label"&gt;
+            &lt;td scope="col"&gt;
+                &lt;div align="center"&gt;
+                    &lt;strong&gt;Kodu&lt;/strong&gt;
+                &lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td scope="col"&gt;
+                &lt;div align="center"&gt;
+                   &lt;strong&gt; Yarıyıl&lt;/strong&gt;
+                &lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td scope="col"&gt;
+                &lt;div align="center"&gt;
+                  &lt;strong&gt;  Teori&lt;br&gt;
+                        (saat/hafta)&lt;/strong&gt;
+                &lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td scope="col"&gt;
+                &lt;div align="center"&gt;
+                &lt;strong&gt;    Uygulama/Lab&lt;br&gt;
+                        (saat/hafta)&lt;/strong&gt;
+                &lt;/div&gt;
+            &lt;/td&gt;
+           &lt;!-- &lt;td rowspan="2" scope="col"&gt;
+                    &lt;div align="center"&gt;
+                            &lt;strong&gt;Laboratuar&lt;br /&gt;
+            (saat/hafta)&lt;/strong&gt;
+                &lt;/div&gt;
+            &lt;/td&gt;--&gt;
+            &lt;td scope="col"&gt;
+                &lt;div align="center"&gt;
+                    &lt;strong&gt;Yerel Kredi&lt;/strong&gt;
+                &lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td scope="col"&gt;
+               &lt;div align="center"&gt;&lt;strong&gt;AKTS&lt;/strong&gt;&lt;/div&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+
+            &lt;td&gt;
+                 &lt;div align="center"&gt;SE 302&lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;!--(empty($semester["semester"])?"Fall/Spring":($semester["semester"]=="1"?"Fall":"Spring"))--&gt;
+                &lt;div id="semester" class="editinput" align="center"&gt;Güz                 &lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;div align="center" id="weekly_hours" class="editinput"&gt;3&lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;div align="center" id="app_hours" class="editinput"&gt;0&lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;div id="ieu_credit" class="editinput" align="center"&gt;3&lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;div id="ects_credit" class="editinput" align="center"&gt;5&lt;/div&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;&lt;/table&gt;
+    &lt;/div&gt;
+&lt;br&gt;
+ &lt;div class="table-responsive"&gt;&lt;table align="center" cellpadding="2" cellspacing="2" class="table table-condensed table-bordered"&gt;
+ 
+        &lt;tbody&gt;&lt;tr&gt;
+            &lt;td style="width:20%" valign="top" class="sy-label"&gt;
+                    &lt;strong&gt;Ön-Koşul(lar)&lt;/strong&gt;
+            &lt;/td&gt;
+            &lt;td colspan="6"&gt;
+                &lt;div id="pre_requisites"&gt;
+                    &lt;table width="100%"&gt;&lt;tbody&gt;&lt;tr&gt;
+                            &lt;td style="border:none;"&gt;&amp;nbsp;&lt;/td&gt;
+                            &lt;td style="border:none;"&gt;SE 116 Başarılı olmak (En az DD notu almış olmak)&lt;/td&gt;
+                            &lt;!--&lt;td style="border:none;"&gt;&lt;/td&gt;--&gt;
+                        &lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+                        &lt;/div&gt;                
+            &lt;/td&gt;
+        &lt;/tr&gt;
+  &lt;tr&gt;
+        &lt;td class="sy-label"&gt;
+            &lt;strong&gt;Dersin Dili&lt;/strong&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+           &lt;div class="editinput" id="course_lang"&gt;İngilizce&lt;/div&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td class="sy-label"&gt;
+            &lt;strong&gt;Dersin Türü&lt;/strong&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+            &lt;div class="editinput" id="course_type"&gt;Zorunlu&lt;/div&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+   &lt;tr&gt;
+        &lt;td class="sy-label"&gt;
+            &lt;strong&gt;Dersin Düzeyi&lt;/strong&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+            &lt;div class="editselect" id="course_level"&gt;
+                Lisans            &lt;/div&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td class="sy-label"&gt;
+            &lt;strong&gt;Dersin Koordinatörü&lt;/strong&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+            &lt;ul id="coordinator_list"&gt;&lt;li&gt;&lt;a href="https://people.ieu.edu.tr/tr/kayaoguz"&gt;Yrd. Doç. Dr. Kaya OĞUZ&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;          &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td valign="top" class="sy-label"&gt;
+            &lt;strong&gt;Öğretim Eleman(lar)ı&lt;/strong&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+&lt;ul id="lecturer_list"&gt;&lt;li&gt;&lt;a href="https://people.ieu.edu.tr/tr/kayaoguz"&gt;Yrd. Doç. Dr. Kaya OĞUZ&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;       &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td class="sy-label"&gt;
+            &lt;strong&gt;Yardımcı(ları)&lt;/strong&gt;
+        &lt;/td&gt;
+        &lt;td&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;/tbody&gt;&lt;/table&gt;
+    &lt;/div&gt;
+    &lt;div class="table-responsive"&gt;&lt;table align="center" cellpadding="2" cellspacing="2" class="table table-condensed table-bordered"&gt;    
+    &lt;tbody&gt;&lt;tr&gt;
+        &lt;td style="width:20%" valign="top" class="sy-label"&gt;
+            &lt;strong&gt;Dersin Amacı&lt;/strong&gt;
+        &lt;/td&gt;
+        &lt;td&gt;Bu dersin amacı, öğrencilere yazılım mühendisliğinin prensipleri hakkında temel bilgileri vermektir. Derste, bir yazılım geliştirme projesinde mevcut olan tüm aşamalar hakkında genel bilgiler verilerek, öğrencinin yazılım geliştirme hakkında genel bir bilgi sahibi olması amaçlanmaktadır.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td valign="top" class="sy-label"&gt;
+            &lt;strong&gt;Öğrenme Çıktıları&lt;/strong&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+            &lt;span&gt;Bu dersi başarıyla tamamlayabilen öğrenciler;&lt;/span&gt;
+&lt;ul id="outcome"&gt;&lt;li id="li0"&gt;Mühendislik, yazılım, bilgisayar, sistem mühendisliği ve sistem kavramlarını açıklayabilecekler,&lt;/li&gt;&lt;li id="li1"&gt;Yazılımda süreç kavramını ve yazılım süreç modellerini tanımlayabilecekler,&lt;/li&gt;&lt;li id="li2"&gt;Yazılım gereksinimlerini seçebilecekler,&lt;/li&gt;&lt;li id="li3"&gt;Yazılım tasarımı ve mimarisi kavramlarını tanımlayabilecekler,&lt;/li&gt;&lt;li id="li4"&gt;Yazılım doğrulama ve geçerliliğin sınanması kavramlarını öğrenebileceklerdir.&lt;/li&gt;&lt;/ul&gt;        &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td valign="top" class="sy-label"&gt;
+            &lt;strong&gt;Ders Tanımı&lt;/strong&gt;
+        &lt;/td&gt;
+        &lt;td&gt;Bu derste öğrencilere yazılım mühendisliğinin belirtim ve tasarım, gerçekleştirme, sınama ve doğrulama ve test aşamaları hakkında bilgiler verilmektedir.&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+    &lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;div class="table-responsive"&gt;&lt;table align="center" cellpadding="2" cellspacing="2" class="table table-condensed table-bordered"&gt;
+    &lt;tbody&gt;&lt;tr&gt;
+        &lt;td rowspan="5" class="sy-label" style="width:20%"&gt;
+            &lt;div align="center"&gt;
+                &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;strong&gt;Dersin Kategorisi&lt;/strong&gt;&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+Temel Ders        &lt;/td&gt;
+        &lt;td class="veri"&gt;
+            &lt;div id="core_course" class="editcat" align="center"&gt;X&lt;/div&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Uzmanlık/Alan Dersleri&lt;/td&gt;
+        &lt;td class="veri" width="50"&gt;
+            &lt;div id="major_area" class="editcat" align="center"&gt;&lt;/div&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Destek Dersleri&lt;/td&gt;
+        &lt;td class="veri" width="50"&gt;
+            &lt;div id="supportive_courses" class="editcat" align="center"&gt;&lt;/div&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;İletişim ve Yönetim Becerileri Dersleri&lt;/td&gt;
+        &lt;td class="veri" width="50"&gt;
+            &lt;div id="media_man_skills" class="editcat" align="center"&gt;&lt;/div&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Aktarılabilir Beceri Dersleri&lt;/td&gt;
+        &lt;td class="veri" width="50"&gt;
+            &lt;div id="trans_skills" class="editcat" align="center"&gt;&lt;/div&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;div&gt;
+    &lt;h3&gt;
+        &lt;strong&gt;HAFTALIK KONULAR VE İLGİLİ ÖN HAZIRLIK ÇALIŞMALARI&lt;/strong&gt;
+    &lt;/h3&gt;
+&lt;/div&gt;
+&lt;div class="table-responsive"&gt;&lt;table align="center" cellpadding="2" cellspacing="2" class="table table-condensed table-bordered" id="weeks"&gt;
+    &lt;tbody&gt;&lt;tr class="table_top"&gt;
+        &lt;td class="text-center" style="width:5%"&gt;&lt;strong&gt;Hafta&lt;/strong&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;strong&gt;Konular&lt;/strong&gt;&lt;/td&gt;
+        &lt;td style="width:30%"&gt;&lt;strong&gt;Ön Hazırlık&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+                &lt;tr id="hafta_1"&gt;
+                &lt;td&gt;&lt;strong&gt;1&lt;/strong&gt;&lt;/td&gt;
+                &lt;td&gt;Yazılım Mühendisliğine Giriş&lt;/td&gt;
+                &lt;td&gt;Software Engineering  Sommerville – Ch1&lt;/td&gt;
+            &lt;/tr&gt;
+                    &lt;tr id="hafta_2"&gt;
+                &lt;td&gt;&lt;strong&gt;2&lt;/strong&gt;&lt;/td&gt;
+                &lt;td&gt;Yazılım Süreçleri&lt;/td&gt;
+                &lt;td&gt;Sommerville, Chapter 02, Pressman Chapter 02&lt;/td&gt;
+            &lt;/tr&gt;
+                    &lt;tr id="hafta_3"&gt;
+                &lt;td&gt;&lt;strong&gt;3&lt;/strong&gt;&lt;/td&gt;
+                &lt;td&gt;Çevik Yazılım Geliştirme&lt;/td&gt;
+                &lt;td&gt;Sommerville, Chapter 03&lt;/td&gt;
+            &lt;/tr&gt;
+                    &lt;tr id="hafta_4"&gt;
+                &lt;td&gt;&lt;strong&gt;4&lt;/strong&gt;&lt;/td&gt;
+                &lt;td&gt;Gereksinim Mühendisliği&lt;/td&gt;
+                &lt;td&gt;Sommerville, Chapter 04&lt;/td&gt;
+            &lt;/tr&gt;
+                    &lt;tr id="hafta_5"&gt;
+                &lt;td&gt;&lt;strong&gt;5&lt;/strong&gt;&lt;/td&gt;
+                &lt;td&gt;Proje Toplantısı ve Grafik Arayüz Programlama&lt;/td&gt;
+                &lt;td&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+                    &lt;tr id="hafta_6"&gt;
+                &lt;td&gt;&lt;strong&gt;6&lt;/strong&gt;&lt;/td&gt;
+                &lt;td&gt;Sistem Modelleme&lt;/td&gt;
+                &lt;td&gt;Sommerville, Chapter 05&lt;/td&gt;
+            &lt;/tr&gt;
+                    &lt;tr id="hafta_7"&gt;
+                &lt;td&gt;&lt;strong&gt;7&lt;/strong&gt;&lt;/td&gt;
+                &lt;td&gt;Mimari Tasarım&lt;/td&gt;
+                &lt;td&gt;Sommerville, Chapter 06&lt;/td&gt;
+            &lt;/tr&gt;
+                    &lt;tr id="hafta_8"&gt;
+                &lt;td&gt;&lt;strong&gt;8&lt;/strong&gt;&lt;/td&gt;
+                &lt;td&gt;Arasınav&lt;/td&gt;
+                &lt;td&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+                    &lt;tr id="hafta_9"&gt;
+                &lt;td&gt;&lt;strong&gt;9&lt;/strong&gt;&lt;/td&gt;
+                &lt;td&gt;Proje Toplantısı ve Ortak Yazılım Geliştirme&lt;/td&gt;
+                &lt;td&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+                    &lt;tr id="hafta_10"&gt;
+                &lt;td&gt;&lt;strong&gt;10&lt;/strong&gt;&lt;/td&gt;
+                &lt;td&gt;Tasarım ve Gerçekleme&lt;/td&gt;
+                &lt;td&gt;Sommerville, Chapter 07&lt;/td&gt;
+            &lt;/tr&gt;
+                    &lt;tr id="hafta_11"&gt;
+                &lt;td&gt;&lt;strong&gt;11&lt;/strong&gt;&lt;/td&gt;
+                &lt;td&gt;Proje Yönetimi&lt;/td&gt;
+                &lt;td&gt;Sommerville, Chapter 22, 23&lt;/td&gt;
+            &lt;/tr&gt;
+                    &lt;tr id="hafta_12"&gt;
+                &lt;td&gt;&lt;strong&gt;12&lt;/strong&gt;&lt;/td&gt;
+                &lt;td&gt;Yazılım Testleri&lt;/td&gt;
+                &lt;td&gt;Sommerville, Chapter 08&lt;/td&gt;
+            &lt;/tr&gt;
+                    &lt;tr id="hafta_13"&gt;
+                &lt;td&gt;&lt;strong&gt;13&lt;/strong&gt;&lt;/td&gt;
+                &lt;td&gt;Proje Toplantısı ve Teste Dayalı Geliştirme&lt;/td&gt;
+                &lt;td&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+                    &lt;tr id="hafta_14"&gt;
+                &lt;td&gt;&lt;strong&gt;14&lt;/strong&gt;&lt;/td&gt;
+                &lt;td&gt;Yazılım Evrimi&lt;/td&gt;
+                &lt;td&gt;Sommerville, Chapter 09&lt;/td&gt;
+            &lt;/tr&gt;
+                    &lt;tr id="hafta_15"&gt;
+                &lt;td&gt;&lt;strong&gt;15&lt;/strong&gt;&lt;/td&gt;
+                &lt;td&gt;Proje Sunumları&lt;/td&gt;
+                &lt;td&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+                    &lt;tr id="hafta_16"&gt;
+                &lt;td&gt;&lt;strong&gt;16&lt;/strong&gt;&lt;/td&gt;
+                &lt;td&gt;Dönemin gözden geçirilmesi&lt;/td&gt;
+                &lt;td&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;div class="table-responsive"&gt;&lt;table align="center" cellpadding="2" cellspacing="2" class="table table-condensed table-bordered"&gt;
+    &lt;tbody&gt;&lt;tr&gt;
+        &lt;td style="width:20%" valign="top"&gt;
+            &lt;strong&gt;Ders Kitabı&lt;/strong&gt;
+        &lt;/td&gt;
+        &lt;td&gt;&lt;p&gt;Software Engineering 10, Ian Sommerville, 10th Ed. Addison Wesley, 2015, 978-0133943030​&lt;/p&gt;
+&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td valign="top"&gt;
+            &lt;strong&gt;Önerilen Okumalar/Materyaller&lt;/strong&gt;
+        &lt;/td&gt;
+        &lt;td&gt;&lt;p&gt;Software Engineering: A Practitioners’s Approach, Roger S. Pressman, McGraw Hill Publishing Co.; 7th Ed edition (2009), ISBN: 9780071267823&lt;/p&gt;
+&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;div&gt;
+    &lt;h3&gt;
+        &lt;strong&gt;DEĞERLENDİRME ÖLÇÜTLERİ&lt;/strong&gt;
+    &lt;/h3&gt;
+&lt;/div&gt;
+&lt;div class="table-responsive"&gt;&lt;table align="center" cellpadding="2" cellspacing="2" class="table table-condensed table-bordered" id="evaluation_table1"&gt;
+    &lt;tbody&gt;&lt;tr class="table_top"&gt;
+        &lt;td style="width:70%"&gt;&lt;strong&gt;Yarıyıl Aktiviteleri&lt;/strong&gt;&lt;/td&gt;
+        &lt;td style="width:15%" align="center"&gt;&lt;strong&gt;Sayı&lt;/strong&gt;&lt;/td&gt;
+        &lt;td style="width:15%" align="center"&gt;&lt;strong&gt;Katkı Payı %&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Katılım&lt;/td&gt;
+        &lt;td&gt;
+            &lt;div class="editinput" id="attendance_no"&gt;-&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+            &lt;div class="editinput" id="attendance_per"&gt;-&lt;/div&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Laboratuvar / Uygulama&lt;/td&gt;
+        &lt;td&gt;
+            &lt;div class="editinput" id="lab_no"&gt;-&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+            &lt;div class="editinput" id="lab_per"&gt;-&lt;/div&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+        &lt;td&gt;Arazi Çalışması&lt;/td&gt;
+        &lt;td&gt;
+            &lt;div class="editinput" id="fieldwork_no"&gt;-&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+            &lt;div class="editinput" id="fieldwork_per"&gt;-&lt;/div&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+        &lt;td&gt;Küçük Sınav / Stüdyo Kritiği&lt;/td&gt;
+        &lt;td&gt;
+            &lt;div class="editinput" id="quiz_no"&gt;-&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+            &lt;div class="editinput" id="quiz_per"&gt;-&lt;/div&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Ödev&lt;/td&gt;
+        &lt;td&gt;
+            &lt;div class="editinput" id="homework_no"&gt;-&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+            &lt;div class="editinput" id="homework_per"&gt;-&lt;/div&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Sunum / Jüri Önünde Sunum&lt;/td&gt;
+        &lt;td&gt;
+            &lt;div class="editinput" id="presentation_no"&gt;-&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+            &lt;div class="editinput" id="presentation_per"&gt;-&lt;/div&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Proje&lt;/td&gt;
+        &lt;td&gt;
+            &lt;div class="editinput" id="project_no"&gt;1&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+            &lt;div class="editinput" id="project_per"&gt;30&lt;/div&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Seminer/Çalıştay&lt;/td&gt;
+        &lt;td&gt;
+            &lt;div class="editinput" id="seminar_no"&gt;-&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+            &lt;div class="editinput" id="seminar_per"&gt;-&lt;/div&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;    
+&lt;tr&gt;
+        &lt;td&gt;Sözlü Sınav&lt;/td&gt;
+        &lt;td&gt;
+            &lt;div class="editinput" id="portfolios__no"&gt;-&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+            &lt;div class="editinput" id="portfolios_per"&gt;-&lt;/div&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Ara Sınav&lt;/td&gt;
+        &lt;td&gt;
+            &lt;div class="editinput" id="midterm_no"&gt;1&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+            &lt;div class="editinput" id="midterm_per"&gt;30&lt;/div&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Final Sınavı&lt;/td&gt;
+        &lt;td&gt;
+            &lt;div class="editinput" id="final_no"&gt;1&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+            &lt;div class="editinput" id="final_per"&gt;40&lt;/div&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td align="right"&gt;&lt;strong&gt;Toplam&lt;/strong&gt;&lt;/td&gt;
+        &lt;td&gt;
+            &lt;div class="editinput" id="ara_total_no"&gt;3&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+            &lt;div class="editinput" id="ara_total_per"&gt;100&lt;/div&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;br&gt;
+
+&lt;div class="table-responsive"&gt;&lt;table align="center" cellpadding="2" cellspacing="2" class="table table-condensed table-bordered" id="evaluation_table2"&gt;
+    &lt;tbody&gt;&lt;tr style="background-color:#ff6600; color:#fff; font-weight: 100;"&gt;
+        &lt;td style="width:70%"&gt;Yarıyıl İçi Çalışmalarının Başarı Notuna Katkısı&lt;/td&gt;
+        &lt;td style="width:15%" align="center" width="150"&gt;&lt;div&gt;2&lt;/div&gt;&lt;/td&gt;
+        &lt;td style="width:15%" align="center" width="150"&gt;&lt;div&gt;60&lt;/div&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="background-color:#df520f; color:#fff; font-weight: 400;"&gt;
+        &lt;td&gt;Yarıyıl Sonu Çalışmalarının Başarı Notuna Katkısı&lt;/td&gt;
+        &lt;td align="center" width="150"&gt;&lt;div&gt;1&lt;/div&gt;&lt;/td&gt;
+        &lt;td align="center" width="150"&gt;&lt;div&gt;40&lt;/div&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td align="right"&gt;&lt;strong&gt;Toplam&lt;/strong&gt;&lt;/td&gt;
+        &lt;td align="center" id="total_no" style="font-weight: bold;"&gt;3&lt;/td&gt;
+        &lt;td align="center" id="total_per" style="font-weight: bold;"&gt;100&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+    &lt;h3&gt;
+        &lt;strong&gt;AKTS / İŞ YÜKÜ TABLOSU&lt;/strong&gt;
+    &lt;/h3&gt;
+&lt;/div&gt;
+&lt;div class="table-responsive"&gt;&lt;table align="center" cellpadding="2" cellspacing="2" class="table table-condensed table-bordered" id="workload_table"&gt;
+    &lt;thead&gt;
+        &lt;tr class="table_top"&gt;
+            &lt;th style="width:55%"&gt;&lt;strong&gt;Yarıyıl Aktiviteleri&lt;/strong&gt;&lt;/th&gt;
+            &lt;th style="width:15%" class="text-center"&gt;&lt;strong&gt;Sayı&lt;/strong&gt;&lt;/th&gt;
+            &lt;th style="width:15%" class="text-center"&gt;&lt;strong&gt;Süre (Saat)&lt;/strong&gt;&lt;/th&gt;
+            &lt;th style="width:15%" class="text-center"&gt;&lt;strong&gt;İş Yükü&lt;/strong&gt;&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;&lt;tr&gt;
+        &lt;td&gt;Teorik Ders Saati &lt;br&gt;&lt;small&gt;&lt;i&gt;(Sınav haftası dahildir: 16 x teorik ders saati)&lt;/i&gt;&lt;/small&gt;&lt;/td&gt;
+        &lt;td&gt;
+            &lt;div id="course_hour_number" class="editinput"&gt;16&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+            &lt;div id="course_hour_duration" class="editinput"&gt;3&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+            &lt;div id="course_hour_total_workload" class="editinput"&gt;48&lt;/div&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+        &lt;td&gt;Laboratuvar / Uygulama Ders Saati&lt;br&gt;&lt;small&gt;&lt;i&gt;(Sınav haftası dahildir. 16 x uygulama/lab ders saati)&lt;/i&gt;&lt;/small&gt;&lt;/td&gt;
+        &lt;td&gt;
+            &lt;div id="lab_number" class="editinput"&gt;-&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+            &lt;div id="lab_duration" class="editinput"&gt;-&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+            &lt;div id="lab_total_workload" class="editinput"&gt;-&lt;/div&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Sınıf Dışı Ders Çalışması&lt;/td&gt;
+        &lt;td&gt;
+            &lt;div id="out_hour_number" class="editinput"&gt;16&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+            &lt;div id="out_hour_duration" class="editinput"&gt;2&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+            &lt;div id="out_hour_total_workload" class="editinput"&gt;32&lt;/div&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;    
+    &lt;tr&gt;
+        &lt;td&gt;Arazi Çalışması&lt;/td&gt;
+        &lt;td&gt;
+            &lt;div id="fieldwork_number" class="editinput"&gt;-&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+            &lt;div id="fieldwork_duration" class="editinput"&gt;-&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+            &lt;div id="fieldwork_total_number" class="editinput"&gt;-&lt;/div&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Küçük Sınav / Stüdyo Kritiği&lt;/td&gt;
+        &lt;td&gt;
+            &lt;div id="quizess_number" class="editinput"&gt;-&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+            &lt;div id="quizess_duration" class="editinput"&gt;-&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+            &lt;div id="quizess_total_workload" class="editinput"&gt;-&lt;/div&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Ödev&lt;/td&gt;
+        &lt;td&gt;
+            &lt;div id="homework_number" class="editinput"&gt;-&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+            &lt;div id="homework_duration" class="editinput"&gt;-&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+            &lt;div id="homework_total_workload" class="editinput"&gt;-&lt;/div&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;    
+    &lt;tr&gt;
+        &lt;td&gt;Sunum / Jüri Önünde Sunum&lt;/td&gt;
+        &lt;td&gt;
+            &lt;div id="presentation_number" class="editinput"&gt;-&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+            &lt;div id="presentation_duration" class="editinput"&gt;-&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+            &lt;div id="presentation_total_workload" class="editinput"&gt;-&lt;/div&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Proje&lt;/td&gt;
+        &lt;td&gt;
+            &lt;div id="project_number" class="editinput"&gt;1&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+            &lt;div id="project_duration" class="editinput"&gt;40&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+            &lt;div id="project_total_workload" class="editinput"&gt;40&lt;/div&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;    
+    &lt;tr&gt;
+        &lt;td&gt;Seminer/Çalıştay&lt;/td&gt;
+        &lt;td&gt;
+            &lt;div id="seminar_number" class="editinput"&gt;-&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+            &lt;div id="seminar_duration" class="editinput"&gt;-&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+            &lt;div id="seminar_total_workload" class="editinput"&gt;-&lt;/div&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;tr&gt;
+        &lt;td&gt;Sözlü Sınav&lt;/td&gt;
+        &lt;td&gt;
+            &lt;div id="portfolios_number" class="editinput"&gt;-&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+            &lt;div id="portfolios_duration" class="editinput"&gt;-&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+            &lt;div id="portfolios_total_workload" class="editinput"&gt;-&lt;/div&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Ara Sınavlar&lt;/td&gt;
+        &lt;td&gt;
+            &lt;div id="midterm_number" class="editinput"&gt;1&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+            &lt;div id="midterm_duration" class="editinput"&gt;10&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+            &lt;div id="midterm_total_workload" class="editinput"&gt;10&lt;/div&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Final Sınavı&lt;/td&gt;
+        &lt;td&gt;
+            &lt;div id="final_number" class="editinput"&gt;1&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+            &lt;div id="final_duration" class="editinput"&gt;20&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+            &lt;div id="final_total_workload" class="editinput"&gt;20&lt;/div&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+        &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+        &lt;td&gt;&lt;strong&gt;Toplam&lt;/strong&gt;&lt;/td&gt;
+        &lt;td align="center" style="font-weight: bold;"&gt;
+        &lt;div class="editinput"&gt;150 &lt;/div&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;div&gt;
+    &lt;h3&gt;
+        &lt;strong&gt;DERSİN ÖĞRENME ÇIKTILARININ PROGRAM YETERLİLİKLERİ İLE İLİŞKİSİ&lt;/strong&gt;
+    &lt;/h3&gt;
+&lt;/div&gt;
+&lt;div class="table-responsive"&gt;&lt;table align="center" cellpadding="2" cellspacing="2" class="table table-condensed table-bordered" id="yeters"&gt;
+    &lt;tbody&gt;&lt;tr class="table_top "&gt;
+        &lt;td rowspan="2"&gt;
+            &lt;div align="center"&gt;#&lt;/div&gt;
+        &lt;/td&gt;
+        &lt;td rowspan="2"&gt;&lt;strong&gt;Program Yeterlilikleri / Çıktıları&lt;/strong&gt;&lt;/td&gt;
+        &lt;td colspan="5"&gt;
+            &lt;div align="center"&gt;&lt;strong&gt;* Katkı Düzeyi&lt;/strong&gt;&lt;/div&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td width="30" class="table_top"&gt;&lt;div align="center"&gt;1&lt;/div&gt;&lt;/td&gt;
+        &lt;td width="30" class="table_top"&gt;&lt;div align="center"&gt;2&lt;/div&gt;&lt;/td&gt;
+        &lt;td width="30" class="table_top"&gt;&lt;div align="center"&gt;3&lt;/div&gt;&lt;/td&gt;
+        &lt;td width="30" class="table_top"&gt;&lt;div align="center"&gt;4&lt;/div&gt;&lt;/td&gt;
+        &lt;td width="30" class="table_top"&gt;&lt;div align="center"&gt;5&lt;/div&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+                &lt;tr id=""&gt;
+                &lt;td&gt;&lt;strong&gt;1&lt;/strong&gt;&lt;/td&gt;
+                &lt;td class="outcomeAlert"&gt;&lt;p&gt;Matematik, Fen Bilimleri ve Bilgisayar Mühendisliği konularında yeterli bilgi sahibidir; bu alanlardaki kuramsal ve uygulamalı bilgileri, karmaşık mühendislik problemlerinde kullanır&lt;strong&gt;.&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+                    &lt;tr id="2"&gt;
+                &lt;td&gt;&lt;strong&gt;2&lt;/strong&gt;&lt;/td&gt;
+                &lt;td class="outcomeAlert"&gt;&lt;p&gt;Karmaşık Bilgisayar Mühendisliği problemlerini saptar, tanımlar, formüle eder ve çözer; bu amaca uygun analiz ve modelleme yöntemlerini seçer ve uygular.&lt;/p&gt;
+&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;X&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+                    &lt;tr id="3"&gt;
+                &lt;td&gt;&lt;strong&gt;3&lt;/strong&gt;&lt;/td&gt;
+                &lt;td class="outcomeAlert"&gt;&lt;p&gt;Karmaşık bir sistemi, süreci, cihazı veya ürünü gerçekçi kısıtlar ve koşullar altında, belirli gereksinimleri karşılayacak şekilde tasarlar; bu amaçla modern tasarım yöntemlerini uygular.&lt;/p&gt;
+&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;X&lt;/td&gt;
+            &lt;/tr&gt;
+                    &lt;tr id="4"&gt;
+                &lt;td&gt;&lt;strong&gt;4&lt;/strong&gt;&lt;/td&gt;
+                &lt;td class="outcomeAlert"&gt;&lt;p&gt;Bilgisayar Mühendisliği uygulamalarında karşılaşılan karmaşık problemlerin analizi ve çözümü için gerekli olan modern teknik ve araçları geliştirir, seçer ve kullanır; bilişim teknolojilerini etkin bir şekilde kullanır.&lt;/p&gt;
+&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;X&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+                    &lt;tr id=""&gt;
+                &lt;td&gt;&lt;strong&gt;5&lt;/strong&gt;&lt;/td&gt;
+                &lt;td class="outcomeAlert"&gt;&lt;p&gt;Karmaşık Bilgisayar Mühendisliği problemlerinin veya araştırma konularının incelenmesi için deney tasarlar, deney yapar, veri toplar, sonuçları analiz eder ve yorumlar.&lt;/p&gt;
+&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+                    &lt;tr id="6"&gt;
+                &lt;td&gt;&lt;strong&gt;6&lt;/strong&gt;&lt;/td&gt;
+                &lt;td class="outcomeAlert"&gt;&lt;p&gt;Bilgisayar Mühendisliği disiplini içinde ve çok disiplinli takımlarda etkin biçimde çalışır; bireysel çalışma sergiler.&lt;/p&gt;
+&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;X&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+                    &lt;tr id=""&gt;
+                &lt;td&gt;&lt;strong&gt;7&lt;/strong&gt;&lt;/td&gt;
+                &lt;td class="outcomeAlert"&gt;&lt;p&gt;Türkçe sözlü ve yazılı etkin iletişim kurar; etkin rapor yazar ve yazılı raporları anlar, tasarım ve üretim raporları hazırlar, etkin sunum yapar, açık ve anlaşılır talimat verir ve alır.&lt;/p&gt;
+&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+                    &lt;tr id=""&gt;
+                &lt;td&gt;&lt;strong&gt;8&lt;/strong&gt;&lt;/td&gt;
+                &lt;td class="outcomeAlert"&gt;&lt;p&gt;Bilgisayar Mühendisliği uygulamalarının evrensel ve toplumsal boyutlarda sağlık, çevre ve güvenlik üzerindeki etkileri ve çağın mühendislik alanına yansıyan sorunları hakkında bilgi sahibidir; mühendislik çözümlerinin hukuksal sonuçlarının farkındadır.&lt;/p&gt;
+&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+                    &lt;tr id=""&gt;
+                &lt;td&gt;&lt;strong&gt;9&lt;/strong&gt;&lt;/td&gt;
+                &lt;td class="outcomeAlert"&gt;&lt;p&gt;Etik ilkelerine uygun davranma, mesleki ve etik sorumluluk bilincine sahiptir; mühendislik uygulamalarında kullanılan standartlar hakkında bilgi sahibidir.&lt;/p&gt;
+&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+                    &lt;tr id=""&gt;
+                &lt;td&gt;&lt;strong&gt;10&lt;/strong&gt;&lt;/td&gt;
+                &lt;td class="outcomeAlert"&gt;&lt;p&gt;Proje yönetimi, risk yönetimi ve değişiklik yönetimi gibi, iş hayatındaki uygulamalar hakkında bilgi sahibidir; girişimcilik, yenilikçilik hakkında bilinçlidir; sürdürülebilir kalkınma hakkında bilgi sahibidir.&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+                    &lt;tr id=""&gt;
+                &lt;td&gt;&lt;strong&gt;11&lt;/strong&gt;&lt;/td&gt;
+                &lt;td class="outcomeAlert"&gt;&lt;p&gt;Bir yabancı dili kullanarak Bilgisayar Mühendisliği ile ilişkili konularda, bilgi toplar ve meslektaşları ile iletişim kurar. ("European Language Portfolio Global Scale", Level B1)&lt;/p&gt;
+&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+                    &lt;tr id=""&gt;
+                &lt;td&gt;&lt;strong&gt;12&lt;/strong&gt;&lt;/td&gt;
+                &lt;td class="outcomeAlert"&gt;&lt;p&gt;İkinci yabancı dili orta düzeyde kullanır.&lt;/p&gt;
+&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+                    &lt;tr id=""&gt;
+                &lt;td&gt;&lt;strong&gt;13&lt;/strong&gt;&lt;/td&gt;
+                &lt;td class="outcomeAlert"&gt;&lt;p&gt;Yaşam boyu öğrenmenin gerekliliği bilincindedir; bilgiye erişir, bilim ve teknolojideki gelişmeleri izler ve kendini sürekli yeniler; insanlık tarihi boyunca oluşan bilgi birikimini Bilgisayar Mühendisliği alanıyla ilişkilendirir.&lt;/p&gt;
+&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+                &lt;td width="30" style="text-align:center; vertical-align:middle;"&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;p align="right"&gt;*1 Lowest, 2 Low, 3 Average, 4 High, 5 Highest&lt;/p&gt;
+&lt;!--
+&lt;br&gt;&lt;a class="link-icon btn btn-primary btn-md btn-block" href="https://ects.ieu.edu.tr/new/PDF_syllabus_HEADER.php?section=ce.cs.ieu.edu.tr&amp;course_code=SE 302&amp;course_name=Yazılım Mühendisliğinin İlkeleri&amp;lang=tr&amp;cer=&amp;sem="&gt;DERS TANITIM BİLGİLERİNİ İNDİRMEK İÇİN TIKLAYINIZ&lt;/a&gt;&lt;hr&gt;
+--&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;hr&gt;
+
+&lt;/div&gt;
+    &lt;/div&gt;</value>
+  </data>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>
