@@ -129,6 +129,11 @@ namespace deneme
         {
 
         }
+
+        private void Editor_Load(object sender, EventArgs e)
+        {
+
+        }
     }
     }
 
