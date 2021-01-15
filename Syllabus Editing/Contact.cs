@@ -10,25 +10,11 @@ using System.Windows.Forms;
 
 namespace Syllabus_Editing
 {
-    public partial class Form1 : Form
+    public partial class Contact : Form
     {
-        public Form1()
+        public Contact()
         {
             InitializeComponent();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Syllabus form2 = new Syllabus();
-            this.Hide();
-            form2.ShowDialog();
-        }
-
-        private void Homebutton_Click(object sender, EventArgs e)
-        {
-            Form1 form1 = new Form1();
-            this.Hide();
-            form1.ShowDialog();
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
@@ -36,11 +22,19 @@ namespace Syllabus_Editing
             this.Close();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-            Contact form3 = new Contact();
+            Syllabus form2 = new Syllabus();
             this.Hide();
-            form3.ShowDialog();
+            form2.ShowDialog();
+
+        }
+
+        private void Homebutton_Click(object sender, EventArgs e)
+        {
+            Form1 form1 = new Form1();
+            this.Hide();
+            form1.ShowDialog();
         }
     }
 }

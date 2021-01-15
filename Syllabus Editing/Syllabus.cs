@@ -28,5 +28,12 @@ namespace Syllabus_Editing
         {
             this.Close();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Contact form3 = new Contact();
+            this.Hide();
+            form3.ShowDialog();
+        }
     }
 }

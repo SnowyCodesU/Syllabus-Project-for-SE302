@@ -99,6 +99,7 @@ namespace Syllabus_Editing
             this.button3.Text = "      CONTACT";
             this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
