@@ -33,14 +33,14 @@ namespace Syllabus_Editing
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Contact form3 = new Contact();
+            Contact c3 = new Contact();
             this.Hide();
-            form3.ShowDialog();
+            c3.ShowDialog();
         }
     }
 }

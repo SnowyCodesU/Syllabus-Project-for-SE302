@@ -19,7 +19,7 @@ namespace Syllabus_Editing
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
 
         private void button2_Click(object sender, EventArgs e)
